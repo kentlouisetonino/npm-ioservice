@@ -6,12 +6,8 @@
 <br />
 
 ### [ `Documentation` ]
-> - Note, much better to use node version 18.
-
-<br />
-
-> - How to use.
 ```typescript
+// Note: This works well in node version 18.
 Import IOService from 'npm-ioservice'
 
 // Create and IO instance.
