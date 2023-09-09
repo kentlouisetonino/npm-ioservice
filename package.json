@@ -2,12 +2,12 @@
   "name": "npm-ioservice",
   "version": "1.0.0",
   "description": "An NPM package that simplifies the readline and IO processes.",
-  "main": "index.js",
-  "author": "Kent Tonino",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Kent Louise Tonino",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --build",
-    "start": "node ./dist/index.js",
+    "build": "tsc --build", 
     "format": "prettier --write \"./src/**/*.ts\""
   },
   "dependencies": {
