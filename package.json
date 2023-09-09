@@ -2,6 +2,7 @@
   "name": "npm-ioservice",
   "version": "1.0.0",
   "description": "An NPM package that simplifies the readline and IO processes.",
+  "keywords": ["readline-promises", "input-output"],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Kent Louise Tonino",

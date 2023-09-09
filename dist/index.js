@@ -9,21 +9,6 @@ var IOService = /** @class */ (function () {
     IOService.instance = function () {
         return readline.createInterface({ input: node_process_1.stdin, output: node_process_1.stdout });
     };
-    // This method check if the binary input is a valid binary numbers.
-    IOService.invalidBinaryInput = function (input) {
-        if (isNaN(Number(input))) {
-            return true;
-        }
-        var regex = /[2-9]/;
-        return regex.test(input);
-    };
-    // This method check if the decimal input is a valid numbers.
-    IOService.invalidDecimalInput = function (input) {
-        if (isNaN(Number(input))) {
-            return true;
-        }
-        return false;
-    };
     return IOService;
 }());
 exports.default = IOService;
