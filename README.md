@@ -22,9 +22,9 @@ const io = IOService.instance();
 const input = io.question("Value: ");
 
 // Log the output.
-console.log(input)
+console.log(input);
 
 // Exit the io instance.
-io.close()
+io.close();
 ```
 
