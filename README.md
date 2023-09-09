@@ -4,7 +4,6 @@
 
 <br />
 <br />
-<br />
 
 ### [ `Documentation` ]
 > - Note, much better to use node version 18.
