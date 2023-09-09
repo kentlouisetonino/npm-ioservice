@@ -1,0 +1,8 @@
+{
+  "name": "npm-ioservice",
+  "version": "1.0.0",
+  "description": "An NPM package that simplifies the readline and IO processes.",
+  "main": "index.js",
+  "author": "Kent Tonino",
+  "license": "MIT"
+}
