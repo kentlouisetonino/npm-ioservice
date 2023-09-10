@@ -1,14 +1,17 @@
 {
   "name": "npm-ioservice",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "An NPM package that simplifies the readline and IO processes.",
-  "keywords": ["readline-promises", "input-output"],
+  "keywords": [
+    "readline-promises",
+    "input-output"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Kent Louise Tonino",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --build", 
+    "build": "tsc --build",
     "format": "prettier --write \"./src/**/*.ts\""
   },
   "dependencies": {
@@ -17,4 +20,3 @@
     "typescript": "^5.2.2"
   }
 }
-
