@@ -1,6 +1,6 @@
 {
   "name": "npm-ioservice",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "An NPM package that simplifies the readline and IO processes.",
   "keywords": [
     "readline-promises",
