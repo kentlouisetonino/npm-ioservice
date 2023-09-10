@@ -17,7 +17,7 @@ Import IOService from 'npm-ioservice'
 
   // Ask for input.
   // Always await this process.
-  const input = io.question("Value: ");
+  const input = await io.question("Value: ");
 
   // Log the output.
   console.log(input);
