@@ -13,11 +13,34 @@
   "repository": "https://github.com/kentlouisetonino/npm-ioservice",
   "scripts": {
     "build": "tsc --build",
-    "format": "prettier --write \"./src/**/*.ts\""
+    "format": "prettier --write \"./src/**/*.ts\"",
+    "test:all": "jest --watchAll --verbose --coverage --runInBand --no-cache"
   },
   "dependencies": {
+    "@types/jest": "^29.5.5",
     "@types/node": "^20.6.0",
+    "jest": "^29.7.0",
     "prettier": "^3.0.3",
+    "ts-jest": "^29.1.1",
     "typescript": "^5.2.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "./src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "testEnvironment": "node",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/coverage/"
+    ]
   }
 }
